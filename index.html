@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Tooth Care</title>
+    <title>Dr.dream</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -31,40 +31,43 @@
 </head>
 
 <body>
+  <div class="container">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img src="img/로고.JPG" alt="Brand" width="200px" height="70px">
+      </div>
 
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li>
+             <a href="#intro" onclick=$("#menu-close").click();>Introduce</a>
+          </li>
 
-            <li  class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Tooth Care</a>
-            </li>
-             <li>
-                <a href="#myModal" data-toggle="modal" data-target="#myModal">Login</a>
-            </li>
-            <li>
-                <a href="#intro" onclick=$("#menu-close").click();>Introduce</a>
-            </li>
-
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Our Service</a>
-            </li>
-            <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>feedback</a>
-            </li>
-            <li>
-                <a href="#about" onclick=$("#menu-close").click();>Tooth Care buy</a>
-            </li>
-
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>dentist</a>
-            </li>
-
+          <li>
+             <a href="#services" onclick=$("#menu-close").click();>Select Service</a>
+          </li>
+          <li>
+             <a href="#contact" onclick=$("#menu-close").click();>Doctor</a>
+          </li>
         </ul>
-    </nav>
-
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+             <a href="#myModal" data-toggle="modal" data-target="#myModal">Login</a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
 
     <!-- 로그인 -->
      <section id="Login">
@@ -134,59 +137,9 @@
 
 <!-- Header -->
     <section id="top">
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-	<!--페이지-->
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-	</ol>
-	<!--페이지-->
-
-	<div class="carousel-inner">
-		<!--슬라이드1-->
-		<div class="item active">
-			<img src="img/bg(예비2).JPG" style="width:100%" alt="First slide">
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>Slide 1</h1>
-					<p> 회사 로고 및 소개</p>
-				</div>
-			</div>
-		</div>
-		<!--슬라이드1-->
-
-		<!--슬라이드2-->
-		<div class="item">
-			<img src="img/bg.jpg" style="width:100%" data-src="" alt="Second slide">
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>Slide 2</h1>
-					<p>충치 검사 기능 소개</p>
-				</div>
-			</div>
-		</div>
-		<!--슬라이드2-->
-
-		<!--슬라이드3-->
-		<div class="item">
-			<img src="img/bg(예비).jpg" style="width:100%" data-src="" alt="Third slide">
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>Slide 3</h1>
-					<p>다이어리 기능 소개 </p>
-				</div>
-			</div>
-		</div>
-		<!--슬라이드3-->
-	</div>
-
-	<!--이전, 다음 버튼-->
-	<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-	<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-</div>
+      <div class="container">
+        <img src="img/소개.JPG" alt="top" width="100%">
+      </div>
     </section>
 
 
@@ -196,8 +149,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>치아 질병 예방을 위한 서비스 <font color="skyblue"><strong>IoT 치아관리 디바이스</strong></font></h2>
-                    <p class="lead">직관적인 치아 상태 파악 및 전문의를 통한 관리와 상담을 통한 치아 질병 예방</p>
+                    <h2>헬스케어를 위한 원격진료 서비스 <font color="skyblue"><strong>Dr.dream</strong></font></h2>
+                    <p class="lead"><strong>Dr.dream</strong>은 원격진료를 통하여 전문의에게 관리와 상담을 받을 수 있는 <strong>원격진료 플랫폼</strong>입니다.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -252,9 +205,9 @@
                                 <i class="fa fa-cloud fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>충치 분석</strong>
+                                    <strong>분석</strong>
                                 </h4>
-                                <p>영상 처리를 통한 충치 분석</p>
+                                <p>의사를 통한 질병 분석</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -278,7 +231,7 @@
                                 <h4>
                                     <strong>의사 매칭</strong>
                                 </h4>
-                                <p>자신이 원하는 치과 의사와의 매칭</p>
+                                <p>자신이 원하는 의사와의 매칭</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -303,91 +256,20 @@
         <!-- /.container -->
     </section>
 
-    <!-- outservice확장  -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>서비스 이용 자료</h1>
-        </div>
-    </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <span style="font-family: Impact; font-weight: bold; font-size: 2em;">환자 사진 목록</span>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/이빨1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/왼쪽.JPG">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/오른쪽.JPG">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/내부.JPG">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark" style="font-family: Impact;">치아 상태 피드백 받기</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Tooth Care 자세히 </h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
-    <!-- Map -->
-    <section id="contact" class="map">
-       <div class="container">
-       </div>
-    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Tooth Care</strong>
+                    <h4><strong>Dr.dream</strong>
                     </h4>
                     <p>Kangwon University
                         <br>IT</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">toothcare@example.com</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">Dr.dream@example.com</a>
                         </li>
                     </ul>
                     <br>
